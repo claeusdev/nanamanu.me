@@ -1,16 +1,79 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap");
+
+:root {
+  --font-family-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  --font-family-code: Menlo, Monaco, monospace;
+  --font-size-base: 1rem;
+  --font-size-md: 1.25rem;
+  --font-size-lg: 1.4rem;
+  --font-size-xl: 1.75rem;
+  --font-size-2xl: 2.25rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3rem;
+  --font-size-5xl: 4rem;
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+  --color-blue: #0055ff;
+  --color-red: #ff3300;
+  --color-yellow: #ffcc00;
+  --color-green: #4ca55e;
+  --color-blue-100: #ccdbff;
+  --color-red-100: #ffd3cc;
+  --color-yellow-100: #fff8cc;
+  --color-green-100: #d9efde;
+  --mark: var(--color-yellow-100);
+  --outline: 0 0 0 3px var(--color-yellow);
+  --gap: var(--space-3);
+  --radius: 4px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  --theme-color: #24292e;
+  --theme-color-primary: var(--color-blue);
+  --theme-color-gray: #6a737d;
+  --theme-color-gray-light: #f6f8fa;
+  --theme-background-color: #ffffff;
+  --theme-border-color: #eeeeee;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  max-width: 45rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: var(--space-5) var(--space-3);
+  font-family: var(--font-family-sans);
+  line-height: 1.5;
+  color: var(--theme-color);
+  background-color: var(--theme-background-color);
+  margin: 0 auto;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.top-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--space-5);
 }
 
-* {
-  box-sizing: border-box;
+.font-size-2xl {
+  font-size: var(--font-size-2xl) !important;
+}
+
+.font-size-lg {
+  font-size: var(--font-size-lg) !important;
+}
+
+a,
+a:visited {
+  color: var(--theme-color-primary);
 }
