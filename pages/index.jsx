@@ -43,7 +43,16 @@ export default function Home() {
         </p>
 
         <p class="font-size-lg">
-          I work at{" "}
+          I'm currently crafting amazing user experiences at{" "}
+          <a
+            class="link b"
+            href="https://geowox.com"
+            rel="noopener"
+            target="_blank"
+          >
+            Geowox
+          </a>{" "}.
+          I worked at{" "}
           <a
             class="link b"
             href="https://petratrust.com"
