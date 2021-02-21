@@ -46,11 +46,11 @@ export default function Home() {
           I'm currently crafting amazing user experiences at{" "}
           <a
             class="link b"
-            href="https://geowox.com"
+            href="https://expresspaygh.com"
             rel="noopener"
             target="_blank"
           >
-            Geowox
+            Expresspay
           </a>{" "}.
           I worked at{" "}
           <a
