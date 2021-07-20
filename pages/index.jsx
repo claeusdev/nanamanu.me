@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Front-end Engineer - Nana Adjei Manu</title>
+        <title>Software Engineer - Nana Adjei Manu</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,31 +30,37 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="font-size-2xl">Hey, I'm Nana</h1>
+        <h1 className="font-size-2xl" style={{backgroundImage: "linearGradient(to right, #ee0979, #ff6a00)"}}>Nana Adjei Manu</h1>
         <p className="font-size-lg">
-          A Front-end Software Engineer from Accra, Ghana. I like to build
-          scalable user interfaces with great user experience with JavaScript,
-          HTML and CSS.
+          I'm a Software Engineer from Accra, Ghana. I build web applications mainly with Ruby, JavaScript and TypeScript.
         </p>
 
         <p className="font-size-lg">
           I’m currently interested in Front-end engineering, CSS architecture,
-          React, Ember.js, TypeScript, design systems and web performance.
+          React, Ember.js, TypeScript, design systems and Ruby on Rails.
         </p>
 
-        <p class="font-size-lg">
-          I'm currently crafting amazing user experiences at{" "}
+        <p className="font-size-lg">
+          I'm currently building web applications at <a
+            className="link b"
+            href="https://urbanbound.com"
+            rel="noopener"
+            target="_blank"
+          >
+            Urbanbound
+          </a> as a Full-Stack Engineer
+          {" "}. Before Urbanbound, 
+          I worked at{" "}
           <a
-            class="link b"
+            className="link b"
             href="https://expresspaygh.com"
             rel="noopener"
             target="_blank"
           >
             Expresspay
-          </a>{" "}.
-          I worked at{" "}
+          </a>, {" "} 
           <a
-            class="link b"
+            className="link b"
             href="https://petratrust.com"
             rel="noopener"
             target="_blank"
@@ -63,7 +69,7 @@ export default function Home() {
           </a>{" "}
           as a software developer. Before Petra i worked at{" "}
           <a
-            class="link b"
+            className="link b"
             href="https://qoncept.at"
             rel="noopener"
             target="_blank"
@@ -72,7 +78,7 @@ export default function Home() {
           </a>{" "}
           in Austria and{" "}
           <a
-            class="link b"
+            className="link b"
             href="https://afradio.co"
             rel="noopener"
             target="_blank"
