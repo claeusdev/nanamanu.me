@@ -36,27 +36,12 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding: var(--space-5) var(--space-3);
+  box-sizing: border-box;
   font-family: var(--font-family-sans);
   line-height: 1.5;
   color: var(--theme-color);
   background-color: var(--theme-background-color);
-  margin: 0 auto;
 }
-
-.top-nav {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: var(--space-5);
-}
-
-
 
 .font-size-lg {
   font-size: var(--font-size-lg) !important;

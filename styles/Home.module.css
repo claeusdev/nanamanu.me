@@ -1,4 +1,14 @@
-
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family-sans);
+  line-height: 1.5;
+  color: var(--theme-color);
+  background-color: var(--theme-background-color);
+}
 @media screen and (max-width: 540px){
   .main {
     max-width: 100%;

@@ -26,10 +26,8 @@ const withLayout = (Page) => {
         <meta name="twitter:site" content="@claeusdev" />
       </Head>
       <main className="main">
-        <Nav />
         <Page />
       </main>
-      <Footer></Footer>
     </div>
   );
 };

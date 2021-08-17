@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -32,16 +31,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1  style={{backgroundImage: "linearGradient(to right, #ee0979, #ff6a00)"}}>Nana Adjei Manu</h1>
         <p className="font-size-lg">
-          I'm a Software Engineer from Accra, Ghana. I build web applications mainly with Ruby, JavaScript and TypeScript.
-        </p>
-
-        <p className="font-size-lg">
-          I’m currently interested in Front-end engineering, CSS architecture,
-          React, Ember.js, TypeScript, design systems and Ruby on Rails.
-        </p>
-
-        <p className="font-size-lg">
-          I work at <a
+          I'm a Software Engineer from Accra, Ghana. I work at <a
             className="link b"
             href="https://andela.com"
             rel="noopener"
@@ -49,47 +39,17 @@ export default function Home() {
           >
             Andela
           </a>
-          {" "}. Before Andela, 
-          I worked at{" "}
-          <a
-            className="link b"
-            href="https://expresspaygh.com"
-            rel="noopener"
-            target="_blank"
-          >
-            Expresspay
-          </a>, {" "} 
-          <a
-            className="link b"
-            href="https://petratrust.com"
-            rel="noopener"
-            target="_blank"
-          >
-            Petra Trust
-          </a>{" "}
-          as a software developer. Before Petra i worked at{" "}
-          <a
-            className="link b"
-            href="https://qoncept.at"
-            rel="noopener"
-            target="_blank"
-          >
-            Qoncept
-          </a>{" "}
-          in Austria and{" "}
-          <a
-            className="link b"
-            href="https://afradio.co"
-            rel="noopener"
-            target="_blank"
-          >
-            Afradio/VendyAds
-          </a>{" "}
-          in Accra.
+          {" "}.
+            I love building software for the web.           My projects live on my <a href="https://github.com/claeusdev"> Github</a>.
+        </p>
+        <p className="font-size-lg">
+          You can reach out to me on {" "} 
+            <a href="https://linkedin.com/in/nana-adjei-manu">LinkedIn</a>,{" "}
+            <a href="https://twitter.com/claeusdev">@twitter</a> or
+            <a href="mailto:claeusdev@outlook.com"> Email</a>
         </p>
       </main>
 
-      <Footer />
     </div>
   );
 }
