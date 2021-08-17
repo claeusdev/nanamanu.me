@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="font-size-2xl" style={{backgroundImage: "linearGradient(to right, #ee0979, #ff6a00)"}}>Nana Adjei Manu</h1>
+        <h1  style={{backgroundImage: "linearGradient(to right, #ee0979, #ff6a00)"}}>Nana Adjei Manu</h1>
         <p className="font-size-lg">
           I'm a Software Engineer from Accra, Ghana. I build web applications mainly with Ruby, JavaScript and TypeScript.
         </p>
@@ -41,15 +41,15 @@ export default function Home() {
         </p>
 
         <p className="font-size-lg">
-          I'm currently building web applications at <a
+          I work at <a
             className="link b"
-            href="https://urbanbound.com"
+            href="https://andela.com"
             rel="noopener"
             target="_blank"
           >
-            Urbanbound
-          </a> as a Full-Stack Engineer
-          {" "}. Before Urbanbound, 
+            Andela
+          </a>
+          {" "}. Before Andela, 
           I worked at{" "}
           <a
             className="link b"
